@@ -2,7 +2,7 @@
 import random
 from time import time
 from othello_strategy import Strategy
-import Othello_Core as core
+import othello_core as core
 
 tic = time()
 SILENT = False
