@@ -6,9 +6,10 @@ import strategy as ai
 from core import *
 
 tic = time()
-#set X_STRATEGY and O_STRATEGY to ai.minimax_strategy(depth), 
+#set X_STRATEGY and O_STRATEGY to ai.minimax_strategy(depth), ai.human(), or ai.random()
 X_STRATEGY = ai.minimax_strategy(3)
 O_STRATEGY = ai.minimax_strategy(3)
+#CPU vs. CPU
 ROUNDS = 100
 SILENT = False
 
