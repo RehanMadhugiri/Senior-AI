@@ -6,6 +6,7 @@ import strategy as ai
 from core import *
 
 tic = time()
+#set X_STRATEGY and O_STRATEGY to ai.minimax_strategy(depth), 
 X_STRATEGY = ai.minimax_strategy(3)
 O_STRATEGY = ai.minimax_strategy(3)
 ROUNDS = 100
