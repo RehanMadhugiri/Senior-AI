@@ -45,14 +45,18 @@ def terminal_value(board):
     elif "." not in board: return 0
 
 
-def human(board, player):
-    index = input("What index for " + player + ": ")
-    return int(index)
+def human():
+    def human(board, player):
+        index = input("What index for " + player + ": ")
+        return int(index)
+    return human
 
 
-def random(board, player):
-    index = rand.choice(open_values(board))
-    return index
+def random():
+    def random(board, player):
+        index = rand.choice(open_values(board))
+        return index
+    return random
 
 
 def minimax_strategy(max_depth):
