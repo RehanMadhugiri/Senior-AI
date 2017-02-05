@@ -1,4 +1,4 @@
-import Othello_Core as core
+import othello_core as core
 import random
 
 weights = [
